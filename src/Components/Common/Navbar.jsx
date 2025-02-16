@@ -13,9 +13,10 @@ const Navbar = () => {
           <Link to="/" className="hover:text-gray-400">Home</Link>
           <Link to="/about" className="hover:text-gray-400">About</Link>
           <Link to="/features" className="hover:text-gray-400">Features</Link>
-          <Link to="/services" className="hover:text-gray-400">Services</Link>
+          <Link to="/dashboard" className="hover:text-gray-400">Dashboard</Link>
           <Link to="/premium" className="hover:text-gray-400">Premium</Link>
-          <Link to="/premium" className="hover:text-gray-400">Signup</Link>
+          <Link to="/login" className="hover:text-gray-400">Login</Link>
+          <Link to="/ai" className="hover:text-gray-400">Ai</Link>
         </div>
       </div>
     </nav>

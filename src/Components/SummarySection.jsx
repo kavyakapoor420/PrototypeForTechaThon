@@ -46,6 +46,10 @@ const SummarySection = ({ onClose }) => {
           ✕
         </button>
       </div>
+
+      {/* Summary Section Modal */}
+      {showSummary && <SummarySection onClose={() => setShowSummary(false)} />}
+        
     </div>
   );
 };
