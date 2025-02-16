@@ -2,5 +2,5 @@ Elite Achievers
 
 Team leader
 
-(Shaurya Tyagi)[https://github.com/Styl659]
+[shaurya Tyagi](https://github.com/Styl659)
 
