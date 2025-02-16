@@ -88,7 +88,7 @@ export default function LandingPage() {
 
   const handleRedirectToDashboard = () => {
     // Redirecting to the specified URL with the correct PAN value
-    window.location.href = `http://127.0.0.1:5500/Web/portf/portfolio.html?pan=${panid}`;
+    window.location.href = `http://127.0.0.1:5500/Web/portf/portfolio.html?pan=ABCDE1234F`;
   };
 
   const handleRedirectToAssetAllocation = () => {
@@ -132,9 +132,18 @@ export default function LandingPage() {
         </div>
 
         <div className="bg-gray-800 p-6 rounded-xl shadow-lg text-center" onClick={handleRedirectToAiBasedInvestments}>
-          <h2 className="text-xl font-bold">Advanced AI-powered investment tracking</h2>
+          <h2 className="text-xl font-bold">Risk Analysis Summary and Report generation</h2>
           <p className="mt-2">✅ AI-driven portfolio insights</p>
         </div>
+
+
+        <div className="bg-gray-800 p-6 rounded-xl shadow-lg text-center">
+          <h2 className="text-xl font-bold">Future Predictions</h2>
+          <p className="mt-2">Coming soon: AI-driven future investment predictions.
+            <br/>
+            Under Development </p>
+        </div>
+
       </section>
     </div>
   );

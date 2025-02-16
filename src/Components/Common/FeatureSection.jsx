@@ -54,7 +54,8 @@ export const AllFeaturesSection = () => {
           </div>
 
           {/* second feature  */}
-          <div className="w-full bg-graident-to-b from-purple-600/10 to-transparent backdrop-blur-sm border border-purple-500/20 shadow-lg flex flex-col rounded-xl my-8 md:my-0 p-6 hover:scale-105 duration-300 relative overflow-hidden ">
+
+          {/* <div className="w-full bg-graident-to-b from-purple-600/10 to-transparent backdrop-blur-sm border border-purple-500/20 shadow-lg flex flex-col rounded-xl my-8 md:my-0 p-6 hover:scale-105 duration-300 relative overflow-hidden ">
           <div className="absolute top-4 left-0 w-full h-1 bg-gradient-to-r from-purple-600 to-purple-400"></div>
             <div className="absolute top-6 right-6 bg-green-400 text-black text-xs px-3 py-1 rounded-full">
             Popular
@@ -73,10 +74,9 @@ export const AllFeaturesSection = () => {
           <button className="bg-gradient-to-r from-purple-600 to-indigo-500 hover:from-indigo-500 hover:to-purple-600 transition-all duration-300 mx-auto w-[220px] py-3 mt-8 rounded-full text-white font-bold shadow-lg hover:shadow-xl">
             Want to know more ?
           </button>
-          </div>
+          </div> */}
 
-          {/* third feature  */}
-           <div className="w-full bg-[#24252d] border border-purple-900  shadow-lg flex flex-col rounded-xl my-4 p-6 hover:scale-105 duration-300 relative overflow-hidden ">
+<div className="w-full bg-[#24252d] border border-purple-900  shadow-lg flex flex-col rounded-xl my-4 p-6 hover:scale-105 duration-300 relative overflow-hidden ">
              <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-purple-600 to-purple-400 p-3"></div>
              <img
               className='w-16 h-16 mx-auto mt-2 rounded-full l bg-gradient-to-r from-purple-600 to-purple-400 p-3"'
@@ -100,6 +100,29 @@ export const AllFeaturesSection = () => {
                 </div>
              </div>
 
+          {/* third feature  */}
+           <div className="w-full bg-[#24252d] border border-purple-900  shadow-lg flex flex-col rounded-xl my-4 p-6 hover:scale-105 duration-300 relative overflow-hidden ">
+             <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-purple-600 to-purple-400 p-3"></div>
+             <img
+              className='w-16 h-16 mx-auto mt-2 rounded-full l bg-gradient-to-r from-purple-600 to-purple-400 p-3"'
+              src={Triple}
+             />
+                <h2 className='text-2xl font-bold text-white text-center py-6'>
+                Pre-IPO Investment Access
+                </h2>
+                <div className="text-center font-medium text-gray-400">
+                  <p className='py-3 mx-8  border-b border-red-400 mt-8'>
+                  Get exclusive opportunities to invest in promising companies before they go public
+                  </p>
+                  <p className="py-3 mx-8  border-b border-red-400">
+                   Only for viewing purpose
+                  </p>
+                  <button className="bg-gradient-to-r from-purple-600 to-indigo-500 hover:from-indigo-500 hover:to-purple-600 transition-all duration-300 mx-auto w-[220px] py-3 mt-8 rounded-full text-white font-bold shadow-lg hover:shadow-xl">
+                    Want to know more ?
+                   </button>
+                </div>
+             </div>
+
              {/* fourth feature  */}
              <div className="w-full bg-[#24252d] border border-purple-900 shadow-lg flex flex-col rounded-xl my-4 p-6 hover:scale-105 duration-300 relative overflow-hidden  ">
              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-600 to-purple-400"></div>
@@ -108,7 +131,7 @@ export const AllFeaturesSection = () => {
                src={Four}
               />
               <h2 className='text-2xl font-bold text-white text-center py-6'>
-                 Banking Realted
+                 Banking Related
               </h2>
               <div className="text-center font-medium text-gray-400">
                 <p className='py-3 mx-8 border-b border-gray-700 mt-8'>
@@ -132,14 +155,14 @@ export const AllFeaturesSection = () => {
               alt="/"
             />
             <h2 className="text-2xl font-bold text-white text-center py-6">
-              Easy Reporting
+              Ai Analytics
             </h2>
             <div className="text-center font-medium text-gray-400">
               <p className="py-3 mx-8 border-b border-gray-700 mt-8">
-                Simplifies the process of reporting harassment cases.
+               Advanced ai powered investement tracking
               </p>
               <p className="py-3 mx-8 border-b border-gray-700">
-                Ensures clear and concise documentation for action.
+                Ai driven portfolio insights
               </p>
             </div>
             <button className="bg-gradient-to-r from-purple-600 to-indigo-500 hover:from-indigo-500 hover:to-purple-600 transition-all duration-300 mx-auto w-[220px] py-3 mt-8 rounded-full text-white font-bold shadow-lg hover:shadow-xl">

@@ -13,6 +13,10 @@ import About from './Components/About.jsx'
 import PortfolioDashboard from "./Components/Dashboard.jsx";
 import LoginPage from "./Authentication/Login.jsx";
 import SignupPage from "./Authentication/Signup.jsx";
+import Testimonial from "./Components/Testimonial.jsx";
+import Cards from "./Components/Common/Card.jsx";
+import InvestmentExperience from "./Components/AfterSignup/InvestmentExperience.jsx";
+import InvestmentArea from "./Components/AfterSignup/InvestmentArea.jsx";
 
 function App() {
   return (
@@ -34,7 +38,11 @@ function App() {
            <Route path="/signup" element={<SignupPage/>}/>
            <Route path="/ai" element={<PortfolioDashboard/>}/>
           </Routes>
-        {/* <Footer/> */}
+          {/* <InvestmentArea/>
+          <InvestmentExperience/> */}
+          <Cards/>
+          <Testimonial/>
+        <Footer/>
      </BrowserRouter>
     </div>
     

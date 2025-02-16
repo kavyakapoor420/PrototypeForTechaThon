@@ -9,7 +9,7 @@ import {
 const Footer = () => {
     return (
       <footer className="w-full px-8 py-6" style={{
-        borderRadius: '35px 35px 0px 0px',
+        // borderRadius: '35px 35px 0px 0px',
         border: '1px solid #7210FA',
         background: 'linear-gradient(0deg, #241E41 0%, #0F0F15 109.33%)',
         boxShadow: '0px 4px 24px -1px rgba(0, 0, 0, 0.20)',
