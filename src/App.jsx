@@ -37,6 +37,8 @@ function App() {
            <Route path="/login" element={<LoginPage/>}/>
            <Route path="/signup" element={<SignupPage/>}/>
            <Route path="/ai" element={<PortfolioDashboard/>}/>
+           <Route path="/investment-experience" element={<InvestmentExperience/>}/>
+           <Route path="/investment-area" element={<InvestmentArea/>}/>
           </Routes>
           {/* <InvestmentArea/>
           <InvestmentExperience/> */}

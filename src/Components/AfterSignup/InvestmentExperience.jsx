@@ -18,7 +18,7 @@ const InvestmentExperience = () => {
   const storeExperience = (experience) => {
     localStorage.setItem("investmentExperience", experience);
     alert("Your experience level: " + experience);
-    window.location.href = "preff.html";
+    window.location.href = "/investment-area";
   };
 
   return (

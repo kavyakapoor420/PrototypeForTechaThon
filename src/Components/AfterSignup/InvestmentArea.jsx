@@ -19,7 +19,7 @@ const InvestmentArea = () => {
     const updateInvestmentArea = (investmentArea) => {
         localStorage.setItem('preferredInvestment', investmentArea);
         alert("You selected: " + investmentArea);
-        window.location.href = 'investment-details.html';
+        window.location.href = '/';
     };
 
     return (
